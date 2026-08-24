@@ -20,6 +20,12 @@ Dados reais coletados com a equipe da INOV (Nerópolis, GO):
 - Classifica funcionários em NORMAL / ATENÇÃO / ALTO nível de carga
 - Sinaliza alertas antes que a sobrecarga aconteça
 
+ ## Visualizações
+
+![Produção por funcionário](grafico_producao.png)
+
+![Distribuição de carga da equipe](grafico_carga.png)
+
 ## Tecnologias
 
 - Excel (protótipo inicial com fórmulas e dashboard)
