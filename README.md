@@ -1,4 +1,5 @@
 # SmartFlow — Painel Operacional de Gestão de Equipe
+🔗 **[Acesse o dashboard interativo](https://smartflow-sweetata.streamlit.app)**
 
 Ferramenta prática para gestão de equipes que acompanha metas diárias, distribui tarefas de forma equilibrada e sinaliza sobrecarga antes que ela aconteça.
 
