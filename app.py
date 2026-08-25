@@ -27,7 +27,9 @@ comparacao["status"] = comparacao["achievement_pct"].apply(classificar)
 # filtro na barra lateral
 mesas = st.sidebar.multiselect("Filtrar por mesa", options=comparacao["table_id"].unique(), default=comparacao["table_id"].unique())
 comparacao_filtrada = comparacao[comparacao["table_id"].isin(mesas)]
-
+if comparacao_filtrada.empty:
+    st.warning("Selecione ao menos uma mesa no filtro para ver os dados.")
+    st.stop()
 # métricas no topo
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Produção total", int(df["quantity_produced"].sum()))
